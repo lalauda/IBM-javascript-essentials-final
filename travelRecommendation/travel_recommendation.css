@@ -1,0 +1,177 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    background-image: url(https://mediaim.expedia.com/destination/1/331068f30a8b6cd2ab8e90bd12b8d8e5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 50px;
+    color: white;
+    height: 60vh;
+  }
+  
+  .main-content .home-text {
+    max-width: 200px;
+  }
+  
+  .main-content .aboutus-text p{
+    max-width: 600px;
+  }
+  
+  .aboutus-team {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+  }
+    
+  .team-members{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    gap: 1rem;
+  }
+
+  .team-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .team-members > * {
+    flex: 1 1 0;
+  }
+
+  .member {
+    width: 15rem;
+    height: 10rem;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 1rem;
+    opacity: 0.8;
+  }
+  
+  .contactus-form{
+    display: grid;
+    text-align: left;
+    width: 80%;
+    gap: 10px;
+    background-color: #33333380;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+  }
+
+  .contactus-form label {
+    padding-left: 5px;
+  }
+
+  .contactus-form input {
+    margin: 0;
+    border: solid white 1px;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .contactus-form textarea{
+    height: 5rem;
+    margin: 0;
+    border: solid white 1px;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .form-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .results {
+    padding: 20px;
+  }
+  
+  .result-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-item img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .result-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .result-item p {
+    font-size: 1.2em;
+  }
+  
+  .search-results {
+    position: absolute;
+    top: 100px;
+    right: 0;
+  }
+  
+  body{
+    margin: 0;
+  }
